@@ -1,6 +1,7 @@
 {
   "words": [
-    "DITUS"
+    "DITUS",
+    "fortawesome"
   ],
   "ignorePaths": [
     "package-lock.json",
