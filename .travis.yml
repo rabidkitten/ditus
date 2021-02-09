@@ -1,0 +1,25 @@
+language: node_js
+os: linux
+dist: xenial
+node_js:
+  - "stable"
+stages:
+  - name: build
+cache:
+  directories:
+    - node_modules
+jobs:
+  include:
+    - stage: build
+      script:
+        - npm run build
+        - npm test
+      after_success:
+        - npm run coveralls
+        - npm run deploy
+notifications:
+  email:
+    recipients:
+      - ditus@rocketmail.com
+    on_success: always
+    on_failure: always
