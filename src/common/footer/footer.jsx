@@ -15,12 +15,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 function Footer() {
   const { t } = useTranslation();
 
-  console.log(t);
-
   return (
     <div className="footer">
       <Container>
-        <span class="text-muted">
+        <span className="text-muted">
           <FontAwesomeIcon icon={['fab', 'github']} />
           <a href="https://github.com/rabidkitten" target="_blank" rel="noreferrer" className="ml-2">rabidkitten</a>
         </span>

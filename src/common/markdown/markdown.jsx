@@ -5,6 +5,7 @@ import gfm from 'remark-gfm';
 import SyntaxHighlighter from 'react-syntax-highlighter';
 import classnames from 'classnames';
 import { Container } from 'react-bootstrap';
+import EditPageOnGitHub from '../edit-page-on-git-hub/edit-page-on-git-hub';
 
 /**
  * Renders markdown.
@@ -37,7 +38,10 @@ function Markdown(props) {
   if (data) {
     return (
       <Container>
-        <ReactMarkdown className={classnames('markdown', className)} renderers={renderers} plugins={[gfm]} source={data} />
+        <div className="d-flex justify-content-end">
+          <EditPageOnGitHub path={id} />
+        </div>
+        <ReactMarkdown className={classnames('markdown', className)} renderers={renderers} plugins={[gfm]} source={data} path={id} />
       </Container>
     );
   }
