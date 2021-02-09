@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/ditus/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/ditus/static/js/main.16474db0.chunk.js",
-    "main.js.map": "/ditus/static/js/main.16474db0.chunk.js.map",
+    "main.js": "/ditus/static/js/main.bbe4c4f8.chunk.js",
+    "main.js.map": "/ditus/static/js/main.bbe4c4f8.chunk.js.map",
     "runtime-main.js": "/ditus/static/js/runtime-main.b5c0c890.js",
     "runtime-main.js.map": "/ditus/static/js/runtime-main.b5c0c890.js.map",
     "static/js/2.944d3095.chunk.js": "/ditus/static/js/2.944d3095.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.b5c0c890.js",
     "static/js/2.944d3095.chunk.js",
     "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.16474db0.chunk.js"
+    "static/js/main.bbe4c4f8.chunk.js"
   ]
 }
