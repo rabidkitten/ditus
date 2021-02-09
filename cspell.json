@@ -1,0 +1,12 @@
+{
+  "words": [
+    "DITUS"
+  ],
+  "ignorePaths": [
+    "package-lock.json",
+    "bin",
+    "build",
+    ".vscode",
+    "node_modules"
+  ]
+}

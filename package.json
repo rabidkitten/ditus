@@ -1,7 +1,8 @@
 {
   "name": "ditus",
-  "version": "0.1.0",
-  "private": true,
+  "version": "0.1.3",
+  "description": "The main DITUS web and documentation site.",
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
@@ -20,6 +21,15 @@
     "deploy": "gh-pages -d build"
   },
   "homepage": "https://rabidkitten.github.io/ditus/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rabidkitten/ditus.git"
+  },
+  "author": "Andrew McKendrick <ditus@rocketmail.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/rabidkitten/ditus/issues"
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
