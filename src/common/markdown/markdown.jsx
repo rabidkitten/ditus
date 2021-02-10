@@ -2,7 +2,8 @@ import React, { useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
 import ReactMarkdown from 'react-markdown';
 import gfm from 'remark-gfm';
-import SyntaxHighlighter from 'react-syntax-highlighter';
+import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
+import { materialLight as style } from 'react-syntax-highlighter/dist/esm/styles/prism';
 import classnames from 'classnames';
 import { Container } from 'react-bootstrap';
 import EditPageOnGitHub from '../edit-page-on-git-hub/edit-page-on-git-hub';
@@ -26,13 +27,12 @@ function Markdown(props) {
     });
   }, [id, data]);
 
-  const renderers = {
-    // eslint-disable-next-line react/prop-types
-    code: ({ language, value }) => (
-      <SyntaxHighlighter language={language}>
+  const codeBlock = ({ language, value }) => {
+    return (
+      <SyntaxHighlighter language={language} style={style}>
         {value}
       </SyntaxHighlighter>
-    ),
+    )
   };
 
   if (data) {
@@ -41,7 +41,7 @@ function Markdown(props) {
         <div className="d-flex justify-content-end">
           <EditPageOnGitHub path={id} />
         </div>
-        <ReactMarkdown className={classnames('markdown', className)} renderers={renderers} plugins={[gfm]} source={data} path={id} />
+        <ReactMarkdown className={classnames('markdown', className)} renderers={{ code: codeBlock }} plugins={[gfm]} source={data} path={id} />
       </Container>
     );
   }

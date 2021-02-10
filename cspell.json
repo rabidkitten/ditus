@@ -1,7 +1,8 @@
 {
   "words": [
     "DITUS",
-    "fortawesome"
+    "fortawesome",
+    "localizable"
   ],
   "ignorePaths": [
     "package-lock.json",

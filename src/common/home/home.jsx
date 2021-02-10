@@ -1,5 +1,6 @@
 import React from 'react';
 import { withRouter } from 'react-router-dom';
+import Markdown from '../markdown/markdown';
 
 /**
  * Represents the home page.
@@ -8,8 +9,7 @@ import { withRouter } from 'react-router-dom';
  */
 function Home() {
   return (
-    <>
-    </>
+    <Markdown match={{ params: { id: 'home' } }} />
   );
 }
 
