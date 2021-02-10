@@ -1,0 +1,153 @@
+.side-bar-section button {
+  white-space: nowrap;
+}
+
+.side-bar-section button::before {
+  width: 1.25em;
+  line-height: 0;
+  content: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='rgba%280,0,0,.5%29' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M5 14l6-6-6-6'/%3e%3c/svg%3e");
+  transition: transform 0.35s ease;
+  transform-origin: 0.5em 50%;
+}
+
+.side-bar-section button[aria-expanded='true']::before {
+  transform: rotate(90deg);
+}
+
+.side-bar-section button {
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  line-height: 1.5;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  user-select: none;
+  background-color: transparent;
+  font-size: 1rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  display: inline-flex !important;
+  align-items: center !important;
+  border-radius: 0.25rem !important;
+  cursor: pointer;
+  padding: 0.25rem 0.5rem;
+  font-weight: 600;
+  border: 0;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.side-bar-section button:focus,
+.side-bar-section button:active {
+  --bs-gradient: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.15),
+    rgba(255, 255, 255, 0)
+  );
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  line-height: 1.5;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  user-select: none;
+  font-size: 1rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  display: inline-flex !important;
+  align-items: center !important;
+  border-radius: 0.25rem !important;
+  cursor: pointer;
+  outline: 0;
+  padding: 0.25rem 0.5rem;
+  font-weight: 600;
+  border: 0;
+  background-color: rgba(121, 82, 179, 0.1) !important;
+  box-shadow: 0 0 0 1px rgba(121, 82, 179, 0.7) !important;
+  color: rgba(0, 0, 0, 0.85) !important;
+}
+
+.side-bar-section button:hover {
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  line-height: 1.5;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  user-select: none;
+  font-size: 1rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  display: inline-flex !important;
+  align-items: center !important;
+  border-radius: 0.25rem !important;
+  cursor: pointer;
+  padding: 0.25rem 0.5rem;
+  font-weight: 600;
+  border: 0;
+  background-color: rgba(121, 82, 179, 0.1);
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.side-bar-section ul {
+  font-family: var(--bs-font-sans-serif);
+  line-height: 1.5;
+  -webkit-tap-highlight-color: transparent;
+  color: rgba(0, 0, 0, 0.85);
+  box-sizing: border-box;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 0.875em;
+  padding-left: 0;
+  list-style: none;
+  padding-bottom: 0.25rem !important;
+  font-weight: 400 !important;
+  display: block;
+}
+
+.side-bar-section li {
+  --bs-gradient: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.15),
+    rgba(255, 255, 255, 0)
+  );
+  font-family: var(--bs-font-sans-serif);
+  line-height: 1.5;
+  -webkit-tap-highlight-color: transparent;
+  color: rgba(0, 0, 0, 0.85);
+  list-style: none;
+  font-weight: 400 !important;
+  box-sizing: border-box;
+  display: list-item;
+}
+
+.side-bar-section a {
+  font-family: var(--bs-font-sans-serif);
+  line-height: 1.5;
+  -webkit-tap-highlight-color: transparent;
+  list-style: none;
+  font-weight: 400 !important;
+  box-sizing: border-box;
+  display: inline-flex !important;
+  align-items: center !important;
+  border-radius: 0.25rem !important;
+  padding: 0.1875rem 0.5rem;
+  margin-top: 0.125rem;
+  margin-left: 1.25rem;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.side-bar-section a:hover,
+.side-bar-section a:focus {
+  color: rgba(0, 0, 0, 0.85);
+  background-color: rgba(121, 82, 179, 0.1);
+}

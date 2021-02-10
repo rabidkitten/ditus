@@ -9,7 +9,9 @@ import Markdown from '../markdown/markdown';
  */
 function Home() {
   return (
-    <Markdown match={{ params: { id: 'home' } }} />
+    <div>
+      <Markdown match={{ params: { id: 'home' } }} />
+    </div>
   );
 }
 

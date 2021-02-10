@@ -1,0 +1,43 @@
+{
+  "sections": [
+    {
+      "name": "Getting started",
+      "items": [
+        {
+          "path": "home",
+          "name": "Home"
+        }
+      ]
+    },
+    {
+      "name": "Contributing",
+      "items": [
+        {
+          "path": "api-calls",
+          "name": "API Calls"
+        },
+        {
+          "path": "icons",
+          "name": "Icons"
+        },
+        {
+          "path": "localization",
+          "name": "Localization"
+        },
+        {
+          "path": "spelling",
+          "name": "Spelling"
+        }
+      ]
+    },
+    {
+      "name": "Testing",
+      "items": [
+        {
+          "path": "code-coverage",
+          "name": "Code Coverage"
+        }
+      ]
+    }
+  ]
+}

@@ -7,6 +7,9 @@ import { Route, BrowserRouter as Router, Switch } from 'react-router-dom';
 import Home from './common/home/home';
 import Footer from './common/footer/footer';
 import Markdown from './common/markdown/markdown';
+import SideBar from './common/side-bar/side-bar';
+import { Col, Row } from 'react-bootstrap';
+const toc = require('./toc');
 
 FontAwesome();
 
@@ -17,10 +20,19 @@ function App() {
         <Router basename="/ditus">
           <div className="app-top-space" />
           <Header />
-          <Switch>
-            <Route path="/" exact component={Home} />
-            <Route path="/:id" component={Markdown} />
-          </Switch>
+          <Row>
+            <Col sm={12} md={4} lg={2}>
+              <SideBar
+                sections={toc.sections}
+              />
+            </Col>
+            <Col sm={12} md={8} lg={10}>
+              <Switch>
+                <Route path="/" exact component={Home} />
+                <Route path="/:id" component={Markdown} />
+              </Switch>
+            </Col>
+          </Row>
           <Footer />
         </Router>
       </Suspense>

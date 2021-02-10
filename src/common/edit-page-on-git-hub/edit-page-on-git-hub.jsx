@@ -22,7 +22,7 @@ function EditPageOnGitHub(props) {
   };
 
   return (
-    <Button variant="outline-secondary" className="editPageOnGitHub" onClick={handleClick}>
+    <Button variant="outline-primary" className="editPageOnGitHub mb-2" onClick={handleClick}>
       <FontAwesomeIcon icon={['fab', 'github']} className="mr-2" />
       {t('editPageOnGitHub.text')}
     </Button>

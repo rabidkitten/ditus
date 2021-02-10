@@ -37,7 +37,7 @@ function Markdown(props) {
 
   if (data) {
     return (
-      <Container>
+      <Container fluid>
         <div className="d-flex justify-content-end">
           <EditPageOnGitHub path={id} />
         </div>
