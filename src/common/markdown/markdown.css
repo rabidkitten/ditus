@@ -1,3 +1,18 @@
 .markdown img {
   max-width: 100%;
 }
+
+.markdown table {
+  margin-bottom: 20px;
+}
+
+.markdown table td, .markdown table th {
+  height: 2.5em;
+  vertical-align: middle;
+  padding: 5px;
+  box-sizing: content-box;
+}
+
+.markdown table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}

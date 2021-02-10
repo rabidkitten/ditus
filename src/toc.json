@@ -17,6 +17,10 @@
           "name": "Getting started"
         },
         {
+          "path": "/contributing/technology-stack",
+          "name": "Technology Stack"
+        },
+        {
           "path": "/api-calls",
           "name": "API Calls"
         },
