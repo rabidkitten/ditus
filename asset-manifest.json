@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/ditus/static/css/main.12934052.chunk.css",
-    "main.js": "/ditus/static/js/main.efcc5bc3.chunk.js",
-    "main.js.map": "/ditus/static/js/main.efcc5bc3.chunk.js.map",
+    "main.css": "/ditus/static/css/main.5789d9c0.chunk.css",
+    "main.js": "/ditus/static/js/main.774d0c0b.chunk.js",
+    "main.js.map": "/ditus/static/js/main.774d0c0b.chunk.js.map",
     "runtime-main.js": "/ditus/static/js/runtime-main.1265488d.js",
     "runtime-main.js.map": "/ditus/static/js/runtime-main.1265488d.js.map",
     "static/css/2.150d169a.chunk.css": "/ditus/static/css/2.150d169a.chunk.css",
@@ -12,14 +12,14 @@
     "static/js/3.518b4711.chunk.js.map": "/ditus/static/js/3.518b4711.chunk.js.map",
     "index.html": "/ditus/index.html",
     "static/css/2.150d169a.chunk.css.map": "/ditus/static/css/2.150d169a.chunk.css.map",
-    "static/css/main.12934052.chunk.css.map": "/ditus/static/css/main.12934052.chunk.css.map",
+    "static/css/main.5789d9c0.chunk.css.map": "/ditus/static/css/main.5789d9c0.chunk.css.map",
     "static/js/2.a4d25454.chunk.js.LICENSE.txt": "/ditus/static/js/2.a4d25454.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.1265488d.js",
     "static/css/2.150d169a.chunk.css",
     "static/js/2.a4d25454.chunk.js",
-    "static/css/main.12934052.chunk.css",
-    "static/js/main.efcc5bc3.chunk.js"
+    "static/css/main.5789d9c0.chunk.css",
+    "static/js/main.774d0c0b.chunk.js"
   ]
 }
