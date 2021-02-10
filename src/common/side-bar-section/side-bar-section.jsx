@@ -24,8 +24,6 @@ function SideBarSection(props) {
     setCollapsed(!collapsed);
   };
 
-  console.log(collapsed);
-
   return (
     <div className="side-bar-section">
       <Button className="btn d-inline-flex align-items-center rounded" aria-expanded={!collapsed} onClick={handleClick}>

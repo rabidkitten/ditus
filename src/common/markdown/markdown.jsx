@@ -7,6 +7,7 @@ import { materialLight as style } from 'react-syntax-highlighter/dist/esm/styles
 import classnames from 'classnames';
 import { Container } from 'react-bootstrap';
 import EditPageOnGitHub from '../edit-page-on-git-hub/edit-page-on-git-hub';
+import './markdown.css';
 
 /**
  * Renders markdown.
@@ -20,12 +21,12 @@ function Markdown(props) {
   const [data, setData] = useState(null);
 
   useEffect(() => {
-    fetch(`markdown/${id}.md`)
+    fetch(`/ditus/markdown/${id}.md`)
       .then((response) => response.text())
       .then((data) => {
         setData(data);
     });
-  }, [id, data]);
+  }, [id]);
 
   const codeBlock = ({ language, value }) => {
     return (
@@ -37,7 +38,7 @@ function Markdown(props) {
 
   if (data) {
     return (
-      <Container fluid>
+      <Container fluid className="markdown">
         <div className="d-flex justify-content-end">
           <EditPageOnGitHub path={id} />
         </div>

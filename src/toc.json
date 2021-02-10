@@ -4,7 +4,7 @@
       "name": "Getting started",
       "items": [
         {
-          "path": "home",
+          "path": "/home",
           "name": "Home"
         }
       ]
@@ -13,19 +13,23 @@
       "name": "Contributing",
       "items": [
         {
-          "path": "api-calls",
+          "path": "/contributing/getting-started",
+          "name": "Getting started"
+        },
+        {
+          "path": "/api-calls",
           "name": "API Calls"
         },
         {
-          "path": "icons",
+          "path": "/icons",
           "name": "Icons"
         },
         {
-          "path": "localization",
+          "path": "/localization",
           "name": "Localization"
         },
         {
-          "path": "spelling",
+          "path": "/spelling",
           "name": "Spelling"
         }
       ]
@@ -34,7 +38,7 @@
       "name": "Testing",
       "items": [
         {
-          "path": "code-coverage",
+          "path": "/code-coverage",
           "name": "Code Coverage"
         }
       ]

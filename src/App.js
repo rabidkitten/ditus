@@ -29,7 +29,7 @@ function App() {
             <Col sm={12} md={8} lg={10}>
               <Switch>
                 <Route path="/" exact component={Home} />
-                <Route path="/:id" component={Markdown} />
+                <Route path="/:id+" component={Markdown} />
               </Switch>
             </Col>
           </Row>
