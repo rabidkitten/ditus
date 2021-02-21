@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "ditus/static/css/main.707d32bc.chunk.css",
-    "main.js": "ditus/static/js/main.b3df6e73.chunk.js",
-    "main.js.map": "ditus/static/js/main.b3df6e73.chunk.js.map",
-    "runtime-main.js": "ditus/static/js/runtime-main.9eaa856d.js",
-    "runtime-main.js.map": "ditus/static/js/runtime-main.9eaa856d.js.map",
-    "static/css/2.150d169a.chunk.css": "ditus/static/css/2.150d169a.chunk.css",
-    "static/js/2.b8fe0a56.chunk.js": "ditus/static/js/2.b8fe0a56.chunk.js",
-    "static/js/2.b8fe0a56.chunk.js.map": "ditus/static/js/2.b8fe0a56.chunk.js.map",
-    "static/js/3.ece0a7f3.chunk.js": "ditus/static/js/3.ece0a7f3.chunk.js",
-    "static/js/3.ece0a7f3.chunk.js.map": "ditus/static/js/3.ece0a7f3.chunk.js.map",
-    "index.html": "ditus/index.html",
-    "static/css/2.150d169a.chunk.css.map": "ditus/static/css/2.150d169a.chunk.css.map",
-    "static/css/main.707d32bc.chunk.css.map": "ditus/static/css/main.707d32bc.chunk.css.map",
-    "static/js/2.b8fe0a56.chunk.js.LICENSE.txt": "ditus/static/js/2.b8fe0a56.chunk.js.LICENSE.txt"
+    "main.css": "/ditus/static/css/main.707d32bc.chunk.css",
+    "main.js": "/ditus/static/js/main.2970e43c.chunk.js",
+    "main.js.map": "/ditus/static/js/main.2970e43c.chunk.js.map",
+    "runtime-main.js": "/ditus/static/js/runtime-main.79b6af43.js",
+    "runtime-main.js.map": "/ditus/static/js/runtime-main.79b6af43.js.map",
+    "static/css/2.150d169a.chunk.css": "/ditus/static/css/2.150d169a.chunk.css",
+    "static/js/2.b8fe0a56.chunk.js": "/ditus/static/js/2.b8fe0a56.chunk.js",
+    "static/js/2.b8fe0a56.chunk.js.map": "/ditus/static/js/2.b8fe0a56.chunk.js.map",
+    "static/js/3.ece0a7f3.chunk.js": "/ditus/static/js/3.ece0a7f3.chunk.js",
+    "static/js/3.ece0a7f3.chunk.js.map": "/ditus/static/js/3.ece0a7f3.chunk.js.map",
+    "index.html": "/ditus/index.html",
+    "static/css/2.150d169a.chunk.css.map": "/ditus/static/css/2.150d169a.chunk.css.map",
+    "static/css/main.707d32bc.chunk.css.map": "/ditus/static/css/main.707d32bc.chunk.css.map",
+    "static/js/2.b8fe0a56.chunk.js.LICENSE.txt": "/ditus/static/js/2.b8fe0a56.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.9eaa856d.js",
+    "static/js/runtime-main.79b6af43.js",
     "static/css/2.150d169a.chunk.css",
     "static/js/2.b8fe0a56.chunk.js",
     "static/css/main.707d32bc.chunk.css",
-    "static/js/main.b3df6e73.chunk.js"
+    "static/js/main.2970e43c.chunk.js"
   ]
 }
