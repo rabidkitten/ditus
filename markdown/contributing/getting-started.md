@@ -50,7 +50,7 @@ Our process for developing follows GitHub Flow. If you are unfamiliar with this 
 
 ### Creating a Branch
 
-![Create Branch](/ditus/markdown/contributing/contributing/create-branch.png)
+![Create Branch](/markdown/contributing/contributing/create-branch.png)
 
 The `main` branch always needs to be deployable. Therefore any changes you make,
 cannot be made directly on the `main` branch. Instead, whenever you want to
@@ -137,24 +137,24 @@ ZoomImage component to the project.
 
 - On the left of the status bar, click the Synchronize Changes button.
 
-![Status Bar](/ditus/markdown/contributing/vs-code/status-bar-git-sync.png)
+![Status Bar](/markdown/contributing/vs-code/status-bar-git-sync.png)
 
 - On the left of the status bar, click the Checkout branch/tag button.
 
-![Status Bar](/ditus/markdown/contributing/vs-code/status-bar-git-check-out.png)
+![Status Bar](/markdown/contributing/vs-code/status-bar-git-check-out.png)
 
 - In the Select a Ref to checkout, click Create new branch from...
 
-![Status Bar](/ditus/markdown/contributing/vs-code/git-select-ref.png)
+![Status Bar](/markdown/contributing/vs-code/git-select-ref.png)
 
 - In the Branch Name, enter the name of your branch as set out in the guidelines
   above.
 
-![Status Bar](ditus/markdown/contributing/vs-code/git-branch-name.png)
+![Status Bar](/markdown/contributing/vs-code/git-branch-name.png)
 
 ## Making Changes
 
-![Commits](ditus/markdown/contributing/contributing/commits.png)
+![Commits](/markdown/contributing/contributing/commits.png)
 
 Once you've created a branch, you can start to make changes to
 that branch. Every time you add, edit, or delete files, the changes are tracked
@@ -231,7 +231,7 @@ Both of these browsers are no longer supported in this release.
 
 - Click the Source Control icon on the Side Bar.
 
-![Source Control](/ditus/markdown/contributing/vs-code/source-control.png)
+![Source Control](/markdown/contributing/vs-code/source-control.png)
 
 - In the Message text box type the commit message using the guidelines described
   above.
@@ -240,7 +240,7 @@ Both of these browsers are no longer supported in this release.
 
 ## Pull Requests
 
-![Opening a Pull Request](/ditus/markdown/contributing/contributing/open-pull-request.png)
+![Opening a Pull Request](/markdown/contributing/contributing/open-pull-request.png)
 
 Pull Requests initiate discussion about your commits. Because they're tightly
 integrated with the underlying Git repository, anyone can see exactly what
@@ -257,7 +257,7 @@ that others can begin to review your work early in the process.
 
 ### Discussing and Reviewing Code
 
-![Discussing and Reviewing Code](/ditus/markdown/contributing/contributing/discuss-review-code.png)
+![Discussing and Reviewing Code](/markdown/contributing/contributing/discuss-review-code.png)
 
 Once a Pull Request has been opened, the person or team reviewing your changes
 may have questions or comments. Perhaps the coding style doesn't match project
@@ -273,7 +273,7 @@ receive in the unified Pull Request view.
 
 ## Merging
 
-![Merging](/ditus/markdown/contributing/contributing/merging.png)
+![Merging](/markdown/contributing/contributing/merging.png)
 
 When you've completed developing, it is time to merge your code into the main
 branch.
