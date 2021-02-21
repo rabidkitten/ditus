@@ -1,6 +1,8 @@
 import React from 'react';
+import { Col, Container, Row } from 'react-bootstrap';
 import { withRouter } from 'react-router-dom';
-import Markdown from '../markdown/markdown';
+import Banner from '../banner/banner';
+import ImageFeature from '../image-feature/image-feature';
 
 /**
  * Represents the home page.
@@ -10,7 +12,20 @@ import Markdown from '../markdown/markdown';
 function Home() {
   return (
     <div>
-      <Markdown match={{ params: { id: 'home' } }} />
+      <Banner />
+      <Container>
+        <Row>
+          <Col xs={12} sm={4}>
+            <ImageFeature slot="1" />
+          </Col>
+          <Col xs={12} sm={4}>
+            <ImageFeature slot="2" />
+          </Col>
+          <Col xs={12} sm={4}>
+            <ImageFeature slot="3" />
+          </Col>
+        </Row>
+      </Container>
     </div>
   );
 }

@@ -4,7 +4,7 @@
       "name": "Getting started",
       "items": [
         {
-          "path": "/home",
+          "path": "/docs/home",
           "name": "Home"
         }
       ]
@@ -13,27 +13,27 @@
       "name": "Contributing",
       "items": [
         {
-          "path": "/contributing/getting-started",
+          "path": "/docs/contributing/getting-started",
           "name": "Getting started"
         },
         {
-          "path": "/contributing/technology-stack",
+          "path": "/docs/contributing/technology-stack",
           "name": "Technology Stack"
         },
         {
-          "path": "/api-calls",
+          "path": "/docs/api-calls",
           "name": "API Calls"
         },
         {
-          "path": "/icons",
+          "path": "/docs/icons",
           "name": "Icons"
         },
         {
-          "path": "/localization",
+          "path": "/docs/localization",
           "name": "Localization"
         },
         {
-          "path": "/spelling",
+          "path": "/docs/spelling",
           "name": "Spelling"
         }
       ]
@@ -42,7 +42,7 @@
       "name": "Testing",
       "items": [
         {
-          "path": "/code-coverage",
+          "path": "/docs/code-coverage",
           "name": "Code Coverage"
         }
       ]

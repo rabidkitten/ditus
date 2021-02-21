@@ -30,13 +30,16 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "start-localhost": "PUBLIC_URL=/ react-scripts start",
     "build": "react-scripts build",
+    "build-localhost": "PUBLIC_URL=/ react-scripts build",
+    "build-docker": "PUBLIC_URL=/ docker build -t ditus:latest . --no-cache",
     "test": "react-scripts test --passWithNoTests",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://rabidkitten.github.io/ditus/",
+  "homepage": ".",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rabidkitten/ditus.git"

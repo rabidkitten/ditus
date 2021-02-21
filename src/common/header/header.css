@@ -1,0 +1,18 @@
+.header .container {
+  max-width: 1260px;
+  width: 100%;
+}
+
+.header .navbar-brand {
+  margin-right: 24px;
+}
+
+.header-clear {
+  background: rgba(0, 0, 0, 0);
+  box-shadow: none;
+}
+
+.header-solid {
+  background: white;
+  box-shadow: 0 0.125rem 0.625rem -0.1875rem rgb(0 0 0 / 10%);
+}

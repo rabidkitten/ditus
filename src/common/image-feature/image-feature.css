@@ -1,0 +1,13 @@
+.image-feature {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.image-feature .markdown img {
+  width: 55px!important;
+  max-width: 55px!important;
+}
+
+.image-feature {
+  text-align: center;
+}

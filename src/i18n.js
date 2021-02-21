@@ -5,6 +5,8 @@ import Backend from 'i18next-xhr-backend';
 import { initReactI18next } from 'react-i18next';
 import LanguageDetector from 'i18next-browser-languagedetector';
 
+const basename = process.env.PUBLIC_URL;
+
 i18n
   .use(LanguageDetector)
   .use(Backend)
@@ -12,7 +14,7 @@ i18n
   .init({
     backend: {
       /* translation file path */
-      loadPath: '/ditus/translations/{{lng}}.json',
+      loadPath: `${basename}/translations/{{lng}}.json`,
     },
     fallbackLng: 'en',
     debug: false,
